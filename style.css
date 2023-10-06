@@ -231,3 +231,12 @@ footer a:hover {
   border-radius: 5px;
   background-color: #ffd700;
 }
+.volume-container {
+  display: flex;
+  align-items: center;
+}
+
+.volume-slider {
+  width: 200px;
+  margin-right: 10px;
+}
