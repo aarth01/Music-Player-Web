@@ -131,6 +131,17 @@ document.addEventListener("DOMContentLoaded", function () {
     loadAndPlayCurrentSong();
   }
 
+//FOR VOLUME BUTTON
+  .volume-container {
+  display: flex;
+  align-items: center;
+}
+
+.volume-slider {
+  width: 200px;
+  margin-right: 10px;
+}
+
   // Event listener for the previous button
   prevButton.addEventListener("click", playPreviousSong);
 
